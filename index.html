@@ -1,36 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SJ Traders | Coconut Wholesale Dealers</title>
-<head>
+<title>SJ Traders | Coconut Wholesale Dealer</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SJ Traders coconut wholesale dealer in Velloor Kottayam Kerala. Fresh coconut bulk supply across India. Contact 7012372239.">
 
-<title>SJ Traders | Coconut Wholesale Dealer in Kottayam</title>
-
-<meta name="description" content="SJ Traders is a coconut wholesale dealer in Velloor Kottayam Kerala. Bulk coconut supply across India. Contact 7012372239 for wholesale orders.">
-
-<meta name="keywords" content="coconut wholesale kerala, coconut dealer kottayam, coconut supplier velloor, SJ Traders coconut wholesale">
+<meta name="keywords" content="coconut wholesale kerala, coconut dealer kottayam, SJ Traders velloor coconut supplier">
 
 <meta name="author" content="SJ Traders">
-
-<meta name="robots" content="index, follow">
-
-</head>
-<meta name="description" content="SJ Traders Coconut Wholesale Dealer in Velloor Kottayam Kerala. Fresh coconut bulk supply across India.">
 
 <style>
 
 body{
+font-family: Arial;
 margin:0;
-font-family:Arial;
-background:#f4fff2;
+background:#f4f9f4;
 }
 
 /* HEADER */
@@ -38,57 +27,32 @@ background:#f4fff2;
 header{
 background:#1b5e20;
 color:white;
-padding:20px;
-text-align:center;
+display:flex;
+align-items:center;
+padding:10px 40px;
 }
 
 header img{
-width:200px;
-display:block;
-margin:auto;
-margin-bottom:10px;
+height:70px;
+margin-right:20px;
 }
 
-/* NAVBAR */
-
-nav{
-background:#4e342e;
-padding:12px;
-text-align:center;
+header h1{
+margin:0;
 }
 
-nav a{
-color:white;
-margin:15px;
-font-size:18px;
-text-decoration:none;
-}
-
-/* HERO */
-
-.hero{
-background:#e8f5e9;
-text-align:center;
-padding:40px;
-}
-
-.hero img{
-width:350px;
-max-width:90%;
-border-radius:10px;
-}
-
-/* SLIDER */
+/* HERO SLIDER */
 
 .slider{
 width:100%;
 height:400px;
 overflow:hidden;
+position:relative;
 }
 
 .slides{
 display:flex;
-width:400%;
+width:300%;
 animation:slide 12s infinite;
 }
 
@@ -101,83 +65,58 @@ object-fit:cover;
 @keyframes slide{
 
 0%{margin-left:0}
-25%{margin-left:0}
-
-30%{margin-left:-100%}
-50%{margin-left:-100%}
-
-55%{margin-left:-200%}
-75%{margin-left:-200%}
-
-80%{margin-left:-300%}
-100%{margin-left:-300%}
+33%{margin-left:-100%}
+66%{margin-left:-200%}
+100%{margin-left:0}
 
 }
 
-/* SECTION */
+/* ABOUT */
 
-section{
-padding:40px;
-margin:20px;
-background:white;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+.about{
+text-align:center;
+padding:50px;
 }
 
-h2{
-color:#2e7d32;
+.about h2{
+color:#1b5e20;
 }
 
 /* GALLERY */
 
 .gallery{
-display:flex;
-flex-wrap:wrap;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
-justify-content:center;
+padding:40px;
 }
 
 .gallery img{
-width:250px;
-border-radius:10px;
-box-shadow:0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* CONTACT BUTTONS */
-
-.whatsapp{
-background:#25D366;
-color:white;
-padding:12px 20px;
-text-decoration:none;
-border-radius:6px;
-margin-right:10px;
-}
-
-.call{
-background:#2e7d32;
-color:white;
-padding:12px 20px;
-text-decoration:none;
-border-radius:6px;
-}
-
-/* MAP */
-
-.map{
 width:100%;
-height:400px;
 border-radius:10px;
-border:0;
 }
 
-/* FOOTER */
+/* CONTACT */
 
-footer{
+.contact{
 background:#1b5e20;
 color:white;
 text-align:center;
-padding:20px;
+padding:40px;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
 }
 
 </style>
@@ -186,140 +125,103 @@ padding:20px;
 
 <body>
 
+<!-- HEADER -->
+
 <header>
+
 <img src="logo.jpeg">
-<img src="logo2.jpeg">
-<img src="logo3.jpeg">
-<img src="logo4.jpeg">
-<img src="order.jpeg">
-<img src="order2.jpeg">
-<img src="sj1.jpeg">
-<img src="coco.jpeg">
-<img src="sjlogo.png">
 
 <h1>SJ Traders</h1>
-<p>Wholesale Coconut Dealers | Velloor, Kottayam</p>
 
 </header>
 
-<nav>
 
-<a href="#about">About</a>
-<a href="#gallery">Products</a>
-<a href="#contact">Contact</a>
+<!-- SLIDER -->
 
-</nav>
-
-<!-- HERO -->
-
-<div class="hero">
-
-<img src="images/sjlogo.png">
-
-<h2>Premium Coconut Wholesale 🌴</h2>
-
-<p>Fresh Coconut Bulk Supply Across India</p>
-
-</div>
-
-<!-- IMAGE SLIDER -->
-
-<div class="slider">
+<section class="slider">
 
 <div class="slides">
 
-<img src="images/logo.jpeg">
-<img src="images/logo2.jpeg">
-<img src="images/logo3.jpeg">
-<img src="images/logo4.jpeg">
+<img src="order.jpeg">
+<img src="sj1.jpeg">
+<img src="coco.jpeg">
 
 </div>
 
-</div>
+</section>
+
 
 <!-- ABOUT -->
 
-<section id="about">
+<section class="about">
 
-<h2>About SJ Traders</h2>
-
-<p>
-SJ Traders is a trusted coconut wholesale supplier located in
-Velloor, Kottayam, Kerala.
-</p>
+<h2>Wholesale Coconut Dealers</h2>
 
 <p>
-Owned by <b>Nandu S Pallath</b>, we supply high quality coconuts
-in bulk for traders, retailers and businesses.
-</p>
 
-<p>
-Delivery available across India.
-</p>
+SJ Traders is a trusted coconut wholesale supplier located in Velloor,
+Kottayam, Kerala. We provide fresh high-quality coconuts in bulk
+and deliver across India as per customer requirements.
 
-<p><b>Working Hours:</b> 7 AM – 11 PM</p>
+</p>
 
 </section>
 
-<!-- PRODUCT GALLERY -->
 
-<section id="gallery">
+<!-- GALLERY -->
 
-<h2>Our Coconut Supply</h2>
+<section class="gallery">
 
-<div class="gallery">
-
-<img src="images/order.jpeg">
-<img src="images/order2.jpeg">
-<img src="images/sj1.jpeg">
-<img src="images/coco.jpeg">
-
-</div>
+<img src="logo2.jpeg">
+<img src="logo3.jpeg">
+<img src="logo4.jpeg">
+<img src="order2.jpeg">
 
 </section>
 
-<!-- CONTACT -->
-
-<section id="contact">
-
-<h2>Contact SJ Traders</h2>
-
-<p><b>Owner:</b> Nandu S Pallath</p>
-
-<p><b>Phone:</b> 7012372239</p>
-<p><b>Phone:</b> 9400457330</p>
-
-<p>Call or WhatsApp for coconut price updates and bulk supply.</p>
-
-<br>
-
-<a class="whatsapp" href="https://wa.me/917012372239">WhatsApp</a>
-
-<a class="call" href="tel:7012372239">Call Now</a>
-
-</section>
 
 <!-- GOOGLE MAP -->
 
-<section>
+<section style="padding:40px;text-align:center">
 
 <h2>Our Location</h2>
 
-<iframe class="map"
-src="https://maps.google.com/maps?q=Velloor%20Kottayam%20Kerala&t=&z=13&ie=UTF8&iwloc=&output=embed">
+<iframe
+src="https://www.google.com/maps?q=SJ%20Traders%20Velloor%20Kottayam&output=embed"
+width="100%"
+height="400"
+style="border:0;">
 </iframe>
 
 </section>
 
-<footer>
 
-<p>© 2026 SJ Traders</p>
-<p>Coconut Wholesale Dealers | Kerala</p>
+<!-- CONTACT -->
 
-</footer>
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Owner:</b> Nandu S Pallath</p>
+
+<p>📞 7012372239 | 9400457330</p>
+
+<p>🕒 Working Hours: 7 AM – 11 PM</p>
+
+<p>Bulk Orders Accepted Across India</p>
+
+</section>
+
+
+<!-- WHATSAPP BUTTON -->
+
+<a class="whatsapp" 
+href="https://wa.me/917012372239"
+target="_blank">
+
+Order on WhatsApp
+
+</a>
 
 </body>
-
-
 </html>
-
